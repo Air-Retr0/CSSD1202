@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            Terra-Point Calculator
+        </title>
+    </head>
+    <body>
+        <h1>
+            Terra-Point Calculator
+        </h1>
+        <section>
+            <h2>
+                Input:
+            </h2>
+            <form>
+                <label for="lightOption">Light Usage</label>
+                <input type="radio" name="usageType" id="lightOption">
+                <br>
+                <label for="waterOption">Water Usage</label>
+                <input type="radio" name="usageType" id="waterOption">
+                <br>
+                <label for="numUses">Number of Rooms with Light On/Appliances using Water:</label>
+                <input type="number" value="0" id="numUses">
+                <br>
+                <label for="hoursUsed">Hours spent using lights/water:</label>
+                <input type="number" value="0" id="hoursUsed">
+                <br>
+                <input type="submit">
+            </form>
+        </section>
+        <section>
+            <h2>
+                Results:
+            </h2>
+            <p>
+                Average Household USAGETYPE Bill: AVERAGEHERE<!-- Add js to change text depending one what is filled in on form and add household average bill for the choice-->
+                <br><br>
+                Calculated USAGETYPE Bill: AMOUNTHERE<!--Same as above, replace USAGETYPE and AMOUNTHERE-->
+                <br><br>
+                Terra-Points Earned: AMOUNTHERE<!--Replace AMOUNTHERE with js-->
+            </p>
+
+        </section>
+    </body>
+</html>

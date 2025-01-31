@@ -6,6 +6,6 @@ Theodore - Calculator and TBD Pages <br>
 Jaelan - FAQ and Tips Pages
 
 ## Phases
-Phase 1: HTML
-Phase 2: CSS
+Phase 1: HTML <br>
+Phase 2: CSS <br>
 Phase 3: Javascript

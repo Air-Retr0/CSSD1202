@@ -1,0 +1,41 @@
+h1 {
+  color: black;
+}
+
+#centerHomeImage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#centerHomeImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%);
+}
+
+#centerHomeImageText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  z-index: 1;
+}
+
+#centerHomeImageText h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#centerHomeImageText h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}

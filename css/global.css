@@ -45,10 +45,10 @@ footer p {
 }
 
 @font-face {
-  font-family: Copperplate;
-  src: url(fonts/Copperplate.otf);
+  font-family: customFont;
+  src: url(/fonts/Poppins-Regular.ttf);
 }
 
 body, header, button {
-  font-family: Copperplate, fantasy;
+  font-family: customFont, fantasy;
 }

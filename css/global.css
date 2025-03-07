@@ -7,18 +7,18 @@
   font-size: 0.5rem;
 }
 
-.nav a {
+.nav a , footer a {
   text-decoration: none;
   color: white;
 }
 
-.nav button {
+.nav button , footer button {
   background-color: transparent;
   border: none;
   color: white;
 }
 
-nav button:hover {
+nav button:hover , footer button:hover{
   color: black;
   background-color: white;
   border-radius: 0.5rem;

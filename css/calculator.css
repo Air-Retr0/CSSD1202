@@ -2,13 +2,22 @@ form, #form-title, #form {
     text-align: center;
 }
 
+#form-title {
+    border-bottom: solid 1px black;
+    display: block;
+    margin: 5% auto;
+    text-align: center;
+    width: fit-content;
+}
+
 #form {
     border: solid 2px black;
     display: block;
-    margin: 0 auto;
+    margin: 0% auto 10% auto;
     width: 40%;
     text-align: center;
     padding: 3% 0%;
+    font-size: larger;
 }
 
 input {
@@ -26,4 +35,8 @@ input {
 
 #submit:hover {
     background-color: rgb(83, 139, 223);
+}
+
+#results {
+    display: none;
 }

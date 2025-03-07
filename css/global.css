@@ -44,6 +44,11 @@ footer p {
   margin: 0;
 }
 
+@font-face {
+  font-family: Copperplate;
+  src: url(/fonts/Copperplate.otf);
+}
+
 body, header, button {
   font-family: Copperplate, fantasy;
 }

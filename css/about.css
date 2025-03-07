@@ -32,17 +32,3 @@ img {
     border-radius: 8px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.15);
 }
-
-footer {
-    margin-top: 3rem;
-    text-align: center;
-    padding: 1.5rem;
-    background: #2c5432;
-    color: white;
-}
-
-footer button {
-    background-color: #b2d3be;
-    color: #2c5432;
-    margin-top: 1rem;
-}

@@ -1,4 +1,14 @@
-table {
+form, #form-title, #form {
+    text-align: center;
+}
+
+#form {
+    border: solid 2px black;
+    width: 50%;
     align-self: center;
     text-align: center;
+}
+
+input {
+    margin: 1%;
 }

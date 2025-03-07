@@ -46,7 +46,7 @@ footer p {
 
 @font-face {
   font-family: Copperplate;
-  src: url(/fonts/Copperplate.otf);
+  src: url(fonts/Copperplate.otf);
 }
 
 body, header, button {

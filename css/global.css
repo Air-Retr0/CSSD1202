@@ -46,7 +46,7 @@ footer p {
 
 @font-face {
   font-family: customFont;
-  src: url(/css/);
+  src: url(/fonts/Poppins-Regular.ttf);
 }
 
 body, header, button {

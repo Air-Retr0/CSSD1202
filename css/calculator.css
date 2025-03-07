@@ -4,11 +4,26 @@ form, #form-title, #form {
 
 #form {
     border: solid 2px black;
-    width: 50%;
-    align-self: center;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
     text-align: center;
+    padding: 3% 0%;
 }
 
 input {
-    margin: 1%;
+    margin: 2% 1%;
+    width: 40px;
+    padding: 1% 1%;
+}
+
+#submit {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 1% 2%;
+}
+
+#submit:hover {
+    background-color: rgb(83, 139, 223);
 }

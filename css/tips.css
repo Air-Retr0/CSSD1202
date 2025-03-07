@@ -39,29 +39,3 @@ main h1 {
     color: #333;
     margin-bottom: 2rem;
 }
-
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #f0f0f0;
-    border-top: 1px solid #ccc;
-    margin-top: 2rem;
-}
-
-footer p {
-    margin: 0.5rem 0;
-    color: #555;
-}
-
-footer button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 0.5rem;
-    cursor: pointer;
-}
-
-footer button:hover {
-    background-color: #0056b3;
-}

@@ -45,10 +45,10 @@ footer p {
 }
 
 @font-face {
-  font-family: customFont;
-  src: url(fonts/Poppins-Regular.ttf);
+  font-family: "customFont";
+  src: url(fonts/Poppins-Regular.ttf) format(truetype);
 }
 
 body, header, button {
-  font-family: customFont;
+  font-family: "customFont";
 }

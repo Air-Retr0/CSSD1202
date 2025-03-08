@@ -11,11 +11,14 @@ form, #form-title, #form {
 }
 
 #form {
+    position: relative;
     border: solid 2px black;
     border-radius: 2%;
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin: 0% auto 10% auto;
-    width: 40%;
+    height: 40%;
+    width: 60%;
     text-align: center;
     padding: 3% 0%;
     font-size: larger;

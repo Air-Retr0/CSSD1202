@@ -5,7 +5,7 @@ h1 {
 }
 
 
-#members {
+.members {
     text-align: center;
     height: fit-content;
     max-width: 800px;
@@ -54,7 +54,7 @@ a[href^="mailto"]:hover {
 
 .nav button,
 footer button {
-  margin: 0.1rem 0.4rem;
+    margin: 0.1rem 0.4rem;
 }
 
 @media (min-width: 768px) {

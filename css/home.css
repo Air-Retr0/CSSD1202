@@ -9,34 +9,113 @@ h1 {
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   overflow: hidden;
 }
 
 #centerHomeImage img {
-  width: 60%;
-  /*height: 50%;*/
+  width: 100%;
   object-fit: cover;
   filter: brightness(50%);
 }
 
-#centerHomeImageText {
+#centerHomeImage h1 {
+  font-size: 3rem;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 42%;
+  color: white;
+}
+
+#centerHomeImage h2 {
+  font-size: 2rem;
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 25%;
+  color: white;
+}
+
+.homeCards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 25%;
+  margin: 10px;
+  text-align: left;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.card p {
+  padding: 0 10px 10px;
   color: black;
-  z-index: 1;
 }
 
-#centerHomeImageText h1 {
-  font-size: 4rem;
-  font-weight: bold;
-  text-align: center;
+
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  @media (max-width: 480px) {
+    .card {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .homeCards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #centerHomeImage {
+    height: 50vh;
+  }
+
+  #centerHomeImage h1 {
+    font-size: 1.8rem;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #centerHomeImage h2 {
+    font-size: 1.2rem;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #centerHomeImage img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
 }
 
-#centerHomeImageText h2 {
-  font-size: 2rem;
-  font-weight: bold;
+.homeCards h1 {
   text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
 }

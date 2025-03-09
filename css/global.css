@@ -7,18 +7,21 @@
   font-size: 0.5rem;
 }
 
-.nav a , footer a {
+.nav a,
+footer a {
   text-decoration: none;
   color: white;
 }
 
-.nav button , footer button {
+.nav button,
+footer button {
   background-color: transparent;
   border: none;
   color: white;
 }
 
-nav button:hover , footer button:hover{
+nav button:hover,
+footer button:hover {
   color: black;
   background-color: white;
   border-radius: 0.5rem;
@@ -49,6 +52,8 @@ footer p {
   src: url(Poppins-Regular.ttf) format("truetype");
 }
 
-body, header, button {
+body,
+header,
+button {
   font-family: "customFont";
 }

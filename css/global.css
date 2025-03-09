@@ -59,3 +59,7 @@ header,
 button {
   font-family: "customFont";
 }
+
+body {
+  margin: 0%;
+}

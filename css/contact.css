@@ -52,6 +52,11 @@ a[href^="mailto"]:hover {
     flex-wrap: wrap;
 }
 
+.nav button,
+footer button {
+  margin: 0.1rem 0.4rem;
+}
+
 @media (min-width: 768px) {
     #team-info {
         display: grid;

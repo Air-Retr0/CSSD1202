@@ -32,10 +32,11 @@
       <input type="password" placeholder="Password" name="password" id="password" required>
 
       <button type="submit">Continue</button>
-      <label>
-        <input type="checkbox" name="remember"> Remember me
-      </label>
-      <!--Will add a forget password model-->
+
+      <div class="remember">
+        <input type="checkbox" name="remember" id="rememberCheckbox">
+        <label for="rememberCheckbox">Remember me</label>
+      </div>
       <button type="button" id="forgotPassword">Forgot password?</button>
     </div>
   </form>

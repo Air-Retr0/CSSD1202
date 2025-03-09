@@ -3,7 +3,7 @@ main h1 {
     margin-bottom: 3rem;
     font-size: 2rem;
     padding: 20px;
-    color: #2c5432;
+    color: #2265cb;
 }
 
 
@@ -22,7 +22,7 @@ main h1 {
     border-radius: 0.5rem;
     font-size: 1.1rem;
     font-weight: bold;
-    color: #3d6b47;
+    color: #538bdf;
     transition: background-color 0.3s ease;
 }
 

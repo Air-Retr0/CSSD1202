@@ -45,8 +45,13 @@ h2 {
   margin-right: 10px;
   margin-top: 10px;
   font-size: 0.8rem;
+}
+
+.remember label {
+  margin-left: 5px;
   word-wrap: normal;
 }
+
 
 button[type="submit"] {
   background-color: green;

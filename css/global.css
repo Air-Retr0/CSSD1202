@@ -5,6 +5,7 @@
   padding: 1rem;
   background-color: black;
   font-size: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .nav a,

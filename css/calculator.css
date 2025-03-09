@@ -2,13 +2,58 @@ form, #form-title, #form {
     text-align: center;
 }
 
-#form {
-    border: solid 2px black;
-    width: 50%;
-    align-self: center;
+#form-title {
+    border-bottom: solid 1px black;
+    display: block;
+    margin: 5% auto;
     text-align: center;
+    width: fit-content;
+}
+
+#form {
+    position: relative;
+    border: solid 2px black;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+    margin: 0% auto 10% auto;
+    height: 40%;
+    width: 60%;
+    text-align: center;
+    padding: 3% 0%;
+    font-size: larger;
+}
+
+@media screen and (orientation: portrait) {
+    #form {
+        width: 90%;
+        height: auto;
+        font-size: 1rem;
+    }
 }
 
 input {
-    margin: 1%;
+    margin: 2% 1%;
+    width: 40px;
+    padding: 1% 1%;
+}
+
+input[type="radio"] {
+    accent-color: rgb(83, 139, 223);
+    height: 1.25rem;
+}
+
+#submit {
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 1% 2%;
+}
+
+#submit:hover {
+    background-color: rgb(83, 139, 223);
+}
+
+#results {
+    display: none;
 }

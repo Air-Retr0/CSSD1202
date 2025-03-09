@@ -1,27 +1,28 @@
-
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-}
-
 h1 {
-    color: blue;
+    color: green;
     text-align: center;
     margin: 2rem 0;
 }
 
 
-div {
-    width: 100%;
+#members {
+    text-align: center;
+    height: fit-content;
     max-width: 800px;
     margin: 1rem 0;
     padding: 1.5rem;
     background: #f8f9fa;
+    border: solid;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
+}
+
+#team-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
 }
 
 div:hover {
@@ -29,13 +30,13 @@ div:hover {
 }
 
 h2 {
-    color: blue;
+    color: green;
     margin-bottom: 0.5rem;
 }
 
 
 a[href^="mailto"] {
-    color: blue;
+    color: green;
     text-decoration: none;
     font-weight: 500;
 }
@@ -44,9 +45,20 @@ a[href^="mailto"]:hover {
     text-decoration: underline;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+.nav button,
+footer button {
+  margin: 0.1rem 0.4rem;
+}
 
 @media (min-width: 768px) {
-    body {
+    #team-info {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
@@ -55,5 +67,19 @@ a[href^="mailto"]:hover {
 
     h1 {
         grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        justify-content: space-between;
+        padding: 0.5rem;
+    }
+
+    .nav a {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+        flex: 1;
+        text-align: center;
     }
 }

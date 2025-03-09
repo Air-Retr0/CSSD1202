@@ -1,70 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <title>
-        Terra-Point Calculator
-    </title>
-    <link rel="stylesheet" href="../css/global.css">>
-    <link rel="stylesheet" href="../css/calculator.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Terra-Point Calculator
+        </title>
+        <link rel="stylesheet" href="../css/global.css">
+        <link rel="stylesheet" href="../css/calculator.css">
+    </head>
 
-<header>
-    <nav class="nav">
-        <h1>TerraTrack</h1>
-        <a href="../index.html"><button>Home</button></a>
-        <a href="faq.html"><button>Faq</button></a>
-        <a href="tips.html"><button>Tips</button></a>
-        <a href="about.html"><button>About Us</button></a>
-        <a href="account.html"><button>Account</button></a>
-    </nav>
-</header>
+    <body>
+        <header>
+            <nav class="nav">
+                <h1>TerraTrack</h1>
+                <a href="../index.html"><button>Home</button></a>
+                <a href="faq.html"><button>Faq</button></a>
+                <a href="tips.html"><button>Tips</button></a>
+                <a href="about.html"><button>About Us</button></a>
+                <a href="account.html"><button>Account</button></a>
+            </nav>
+        </header>
+        <h1 id="form-title">
+            Terra-Point Calculator
+        </h1>
+        <section id="form">
+            <h2>
+                Input:
+            </h2>
+            <form>
+                <label for="lightOption">Light Usage</label>
+                <input type="radio" name="usageType" id="lightOption">
+                <br>
+                <label for="waterOption">Water Usage</label>
+                <input type="radio" name="usageType" id="waterOption">
+                <br>
+                <label for="numUses">Number of Rooms with Light On/Appliances using Water:</label>
+                <input type="number" value="0" id="numUses">
+                <br>
+                <label for="hoursUsed">Hours spent using lights/water:</label>
+                <input type="number" value="0" id="hoursUsed">
+                <br>
+                <input type="submit" id="submit">
+            </form>
+        </section>
+        <section id="results">
+            <h2>
+                Results:
+            </h2>
+            <p>
+                Average Household USAGETYPE Bill:
+                AVERAGEHERE<!-- Add js to change text depending one what is filled in on form and add household average bill for the choice-->
+                <br><br>
+                Calculated USAGETYPE Bill: AMOUNTHERE<!--Same as above, replace USAGETYPE and AMOUNTHERE-->
+                <br><br>
+                Terra-Points Earned: AMOUNTHERE<!--Replace AMOUNTHERE with js-->
+            </p>
 
-<body>
-    <h1 id="form-title">
-        Terra-Point Calculator
-    </h1>
-    <section id="form">
-        <h2>
-            Input:
-        </h2>
-        <form>
-            <label for="lightOption">Light Usage</label>
-            <input type="radio" name="usageType" id="lightOption">
-            <br>
-            <label for="waterOption">Water Usage</label>
-            <input type="radio" name="usageType" id="waterOption">
-            <br>
-            <label for="numUses">Number of Rooms with Light On/Appliances using Water:</label>
-            <input type="number" value="0" id="numUses">
-            <br>
-            <label for="hoursUsed">Hours spent using lights/water:</label>
-            <input type="number" value="0" id="hoursUsed">
-            <br>
-            <input type="submit">
-        </form>
-    </section>
-    <section>
-        <h2>
-            Results:
-        </h2>
-        <p>
-            Average Household USAGETYPE Bill:
-            AVERAGEHERE<!-- Add js to change text depending one what is filled in on form and add household average bill for the choice-->
-            <br><br>
-            Calculated USAGETYPE Bill: AMOUNTHERE<!--Same as above, replace USAGETYPE and AMOUNTHERE-->
-            <br><br>
-            Terra-Points Earned: AMOUNTHERE<!--Replace AMOUNTHERE with js-->
-        </p>
-
-    </section>
-    <footer>
-        <p>
-            <a href="contact.html"><button>Contact Us</button></a>
-        </p>
-        <p>Credits: </p>
-    </footer>
-</body>
+        </section>
+        <footer>
+            <p>
+                <a href="contact.html"><button>Contact Us</button></a>
+            </p>
+            <p>Credits: </p>
+        </footer>
+    </body>
 
 </html>

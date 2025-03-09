@@ -1,0 +1,60 @@
+h2 {
+  text-align: center;
+  padding: 2%;
+}
+
+#signinBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#signinForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin: 20px auto;
+}
+
+button[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5%;
+  cursor: pointer;
+  width: 70%;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  #signinForm {
+    padding: 15px;
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  #signinForm {
+    padding: 10px;
+  }
+}

@@ -19,6 +19,7 @@ footer button {
   background-color: transparent;
   border: none;
   color: white;
+  margin: 0.1rem 0.8rem;
 }
 
 nav button:hover,

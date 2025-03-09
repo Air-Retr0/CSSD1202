@@ -15,7 +15,7 @@
 
 .grid-item h2 {
     font-size: 1.5rem;
-    color: #3d6b47;
+    color: rgb(83, 139, 223);
     margin-bottom: 1rem;
 }
 
@@ -35,7 +35,7 @@
 main h1 {
     text-align: center;
     font-size: 2rem;
-    color: #2c5432;
+    color: rgb(34, 101, 203);
     margin-bottom: 2rem;
 }
 

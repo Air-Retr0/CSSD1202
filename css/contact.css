@@ -1,8 +1,5 @@
-
-
-
 h1 {
-    color: blue;
+    color: green;
     text-align: center;
     margin: 2rem 0;
 }
@@ -17,7 +14,7 @@ h1 {
     background: #f8f9fa;
     border: solid;
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease;
 }
 
@@ -33,13 +30,13 @@ div:hover {
 }
 
 h2 {
-    color: blue;
+    color: green;
     margin-bottom: 0.5rem;
 }
 
 
 a[href^="mailto"] {
-    color: blue;
+    color: green;
     text-decoration: none;
     font-weight: 500;
 }
@@ -48,6 +45,12 @@ a[href^="mailto"]:hover {
     text-decoration: underline;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
 
 @media (min-width: 768px) {
     #team-info {
@@ -59,5 +62,19 @@ a[href^="mailto"]:hover {
 
     h1 {
         grid-column: 1 / -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        justify-content: space-between;
+        padding: 0.5rem;
+    }
+
+    .nav a {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+        flex: 1;
+        text-align: center;
     }
 }

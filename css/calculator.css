@@ -24,6 +24,14 @@ form, #form-title, #form {
     font-size: larger;
 }
 
+@media screen and (orientation: portrait) {
+    #form {
+        width: 90%;
+        height: auto;
+        font-size: 1rem;
+    }
+}
+
 input {
     margin: 2% 1%;
     width: 40px;

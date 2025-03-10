@@ -119,22 +119,3 @@ h1 {
   width: 100%;
   margin-bottom: 20px;
 }
-
-#credits {
-  text-align: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
-}
-
-#credits p {
-  font-size: 0.8rem;
-  color: #666;
-  margin-left: 10px;
-}
-
-#credits a {
-  color: white;
-  text-decoration: underline;
-  margin-left: 10px;
-  flex-wrap: wrap;
-}

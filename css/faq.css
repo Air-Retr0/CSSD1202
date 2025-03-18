@@ -6,7 +6,6 @@ main h1 {
     color: #2265cb;
 }
 
-
 .dropdown {
     position: relative;
     display: block;
@@ -45,7 +44,7 @@ main h1 {
     transition: max-height 0.5s ease-out, padding 0.5s ease-out;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown.active .dropdown-content {
     max-height: 500px;
     padding: 1rem;
 }
@@ -82,8 +81,7 @@ main h1 {
         padding: 0 3%;
     }
 
-    .dropdown:hover .dropdown-content,
-    .dropdown:focus-within .dropdown-content {
+    .dropdown.active .dropdown-content {
         max-height: 300px;
         padding: 3%;
     }
@@ -104,8 +102,7 @@ main h1 {
         padding: 0 2%;
     }
 
-    .dropdown:hover .dropdown-content,
-    .dropdown:focus-within .dropdown-content {
+    .dropdown.active .dropdown-content {
         max-height: 200px;
         padding: 2%;
     }

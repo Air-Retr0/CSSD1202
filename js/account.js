@@ -20,7 +20,7 @@ window.addEventListener("DOMContentLoaded", () => {
       alert("Username must be alphanumeric and within 4 to 16 characters long")
     }
 
-    if (username === "DevTest1" && password === "Test101!") {
+    if (validPassword && validUser) {
       alert(`Welcome ${username}\r\n
       Sign in was successful, press the button to return to the homepage.`);
       setTimeout(() => {

@@ -44,17 +44,32 @@ input[type="radio"] {
     height: 1.25rem;
 }
 
-#submit {
+#submitBtn {
     background-color: black;
     color: white;
     width: fit-content;
     padding: 1% 2%;
 }
 
-#submit:hover {
+#submitBtn:hover {
     background-color: rgb(83, 139, 223);
 }
 
 #results {
+    position: relative;
+    border:2px black;
+    border-radius: 2%;
     display: none;
+    flex-direction: column;
+    margin: 0% auto 10% auto;
+    height: 40%;
+    width: 60%;
+    text-align: center;
+    padding: 3% 0%;
+    font-size: larger;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+html {
+    scroll-behavior: smooth;
 }
